@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: left;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.fundo{
+    background-image: url(../img/geometric-g70367ac33_1920.jpg);
+    height: 100vh;
+}
+
+.login{
+    border-radius: 15px;
+    box-shadow: 0 0 2em black;
+    padding: 50px 20px 50px 100px;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 600px;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pergunta{
+    margin-top: 5px;
+    color: rgb(161, 161, 161);
+    margin-bottom: 20px;
+}
+
+.pergunta a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+.pergunta a:hover{
+    border-bottom: 1px solid rgb(0, 162, 255);
+}
+
+#google{
+    background-color: white;
+    padding: 10px 15px;
+    border: solid 1px rgb(221, 221, 221);
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+#facebook{
+    background-color: #086DC1;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 .1em black;
+}
+
+#facebook:hover{
+    background-color: #05518f;
+}
+
+#google:active, #facebook:active{
+    transform: scale(0.96);
+    transition: transform .3s;
+}
+
+.login-redes img{
+    width: 15px;    
+}
+
+.email-pass{
+    margin-top: 20px;
+    color:rgb(161, 161, 161);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.email-pass input{
+    height: 30px;
+    width: 390px;
+    border: solid 1px rgb(221, 221, 221);
+    border-radius: 5px;
+}
+
+.botao-registrar{
+    width: 390px;
+    background-color: #086DC1;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 .1em black;
+}
+
+.botao-registrar:hover{
+    background-color: #05518f;
+}
+
+.botao-registrar:active{
+    transform: scale(0.96);
+    transition: transform .3s;
+}
+
+.termos{
+    margin-top: 15px;
+    visibility: hidden;
+}
+
+.termos a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
+.termos a:hover{
+    border-bottom: 1px solid rgb(0, 162, 255);
+}
+
+.check-termos{
+    margin:0 12px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
