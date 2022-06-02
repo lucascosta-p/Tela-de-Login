@@ -6,4 +6,5 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
-![TelaLogin](https://user-images.githubusercontent.com/77301269/171523557-9a8365bb-cc3e-4d0d-8dde-e512abf6ad2b.PNG)
+
+![TelaLogin](https://user-images.githubusercontent.com/77301269/171523682-06d6f871-0e27-40c8-8af5-6d807a26663d.PNG)
